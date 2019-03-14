@@ -1,0 +1,83 @@
+// Grid setup
+
+.grid_cont_large {
+	max-width: 100%;
+}
+
+.grid_cont {
+	max-width: $maxWidth;
+}
+
+.grid_cont,
+.grid_contLarge {
+	display: flex;
+	margin: auto;
+
+	&.grid_cont_spacebtw {
+		justify-content: space-between;
+	}
+
+	&_50perc {
+		flex-basis: 50%;
+		width: 50%;
+
+		&:first-of-type {
+			padding-right: 1.5em;
+		}
+
+		&:last-of-type {
+			padding-left: 1.5em;
+		}
+	}
+
+	&_75perc {
+		flex-basis: 75%;
+		width: 75%;
+
+		&:first-of-type {
+			padding-right: 1.5em;
+		}
+	}
+
+	&_25perc {
+		flex-basis: 25%;
+		width: 25%;
+		padding-left: 1.5em;
+	}
+
+	&_33perc {
+		flex-basis: 33.33%;
+		width: 33.33%;
+		padding: 0 2em;
+	}
+
+	&_100perc {
+		flex-basis: 100%;
+		width: 100%;
+		padding: 0 1.5em;
+	}
+
+	&.grid_align {
+		&_start {
+			align-items: start;
+		}
+
+		&_end {
+			align-items: end;
+		}
+
+		&_center {
+			align-items: center;
+		}
+	}
+
+	&.grid_direction {
+		&_row {
+			flex-direction: row;
+		}
+
+		&_column {
+			flex-direction: column;
+		}
+	}
+}

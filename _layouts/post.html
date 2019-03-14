@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+{% if page.image %}
+<section id="portfolio-large-img">
+	<img src="/img/{{page.image}}">
+</section>
+{% endif %}
+
+<section id="single-portfolio-content">
+	<div class="heading_wrapper grid_cont">
+		<div class="grid_cont_75perc" style="margin: 0 auto;">
+			<h1 class="jumbotron_text" style="font-size: 2em">
+				{{ page.title }}
+			</h1>
+			{{ content }}
+			<a href="/contact" class="btn">
+				Hire us
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="4631 639 8.968 16.751">
+					<defs>
+						<style>
+							.cls-1 {
+								fill: #333;
+							}
+						</style>
+					</defs>
+					<g id="right-arrow" transform="translate(4597.6 632.5)">
+						<path id="Path_94" data-name="Path 94" class="cls-1" d="M34.411,23.078a.593.593,0,0,1-.838,0,.593.593,0,0,1,0-.838l7.365-7.365L33.573,7.511a.592.592,0,0,1,.838-.838l7.784,7.784a.593.593,0,0,1,0,.838Z" />
+					</g>
+				</svg>
+			</a>
+		</div>
+	</div>
+</section>

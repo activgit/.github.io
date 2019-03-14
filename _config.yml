@@ -1,0 +1,30 @@
+#==============================
+# General site config
+#==============================
+
+# Permalinks
+permalink:           pretty
+
+# Setup
+title: Activ Digital
+tagline: Web Product Development, Product Design and Digital Marketing
+baseurl: ""
+name: "Activ Digital"
+description: We are a digital technology agency that specialise in helping Techology Startups and Technology Focused Companies by providing Web Design, Web Development, Product Design and Digital Marketing services.
+url: https://activ.digital
+
+plugins: [jekyll-seo-tag]
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir: _sass
+  style: :compressed
+
+# About/contact
+author:
+  name: Activ Digital
+  url: https://activ.digital
+  email: omeiza@activ.digital
+  twitter: http://twitter.com/mr_omeiza

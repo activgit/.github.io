@@ -1,0 +1,109 @@
+//======= CSS Reset ======
+
+html {overflow-y:scroll;}
+html, body, div, span, applet, object,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+:focus {
+	outline: 0;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	empty-cells:show;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: " ";
+}
+
+blockquote, q {
+	quotes: "" "";
+}
+
+textarea {
+	overflow-y:auto;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+@font-face{
+	font-family: "NeoSans-Black", sans-serif;
+	src: url('../fonts/neo-sans/neosans-bold.eot') format('embedded-opentype'),
+		url('../fonts/neo-sans/neosans-bold.woff') format('woff');
+}
+
+@font-face{
+	font-family: "GT America", sans-serif;
+	src: url('../fonts/gt-america/gt-america-standard-medium.eot') format('embedded-opentype'),
+		url('../fonts/gt-america/gt-america-standard-medium.woff') format('woff');
+}
+
+//===========
+
+html {
+	font-feature-settings: "liga" 1,"hist" 1,"swsh" 1;
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+}
+
+body {
+	font-family: $primaryFont;
+	line-height: 1.75em;
+	font-weight: 300;
+	font-size: 1.05em;
+	color: #424040;
+	overflow-x: hidden;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1.2em;
+	font-family: $headingFonts;
+	color: #333;
+}
+
+.clearfix {
+	&:after,
+	&:before {
+		content: "";
+		clear: both;
+		display: table;
+	}
+}
+
+strong {
+	font-weight: 500;
+}

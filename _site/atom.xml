@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Activ Digital</title>
+ <link href="http://localhost:4000/atom.xml" rel="self"/>
+ <link href="http://localhost:4000/"/>
+ <updated>2019-03-13T19:25:47+01:00</updated>
+ <id>http://localhost:4000</id>
+ <author>
+   <name>Activ Digital</name>
+   <email>omeiza@activ.digital</email>
+ </author>
+
+ 
+ <entry>
+   <title>Digital web transformation for a forward thinking oil company</title>
+   <link href="http://localhost:4000/2018/11/21/designed-to-meet-developers-where-they-live/"/>
+   <updated>2018-11-21T00:00:00+01:00</updated>
+   <id>http://localhost:4000/2018/11/21/designed-to-meet-developers-where-they-live</id>
+   <content type="html">&lt;p&gt;
+    The product team needs an app to go to market. Marketing has to design this year’s flagship
+    campaign and a five-year communications vision. IT wants to replace frustrating, outdated internal software.
+    Different business problems, different needs. We can help.
+&lt;/p&gt;
+&lt;p&gt;
+    The product team needs an app to go to market. Marketing has to design this year’s flagship
+    campaign and a five-year communications vision. IT wants to replace frustrating, outdated internal
+    software. Different business problems, different needs. We can help.
+&lt;/p&gt;
+&lt;h2&gt; Challenges &lt;/h2&gt;
+&lt;p&gt;
+    Anime Expo is the largest anime and manga convention in North America. Hundreds of thousands of
+    fans flock to the event hosted at the Los Angeles Convention Center. Apart from the convention itself,
+    the Anime Expo website serves as the main touchpoint and information thoroughfare for fans year
+    round.
+&lt;/p&gt;
+&lt;h2&gt; Solution &lt;/h2&gt;
+&lt;p&gt;
+    Anime Expo is the largest anime and manga convention in North America. Hundreds of thousands of
+    fans flock to the event hosted at the Los Angeles Convention Center. Apart from the convention itself,
+    the Anime Expo website serves as the main touchpoint and information thoroughfare for fans year
+    round.
+&lt;/p&gt;
+&lt;h2&gt; Result &lt;/h2&gt;
+&lt;p&gt;
+Anime Expo is the largest anime and manga convention in North America. Hundreds of thousands of
+fans flock to the event hosted at the Los Angeles Convention Center. Apart from the convention itself,
+the Anime Expo website serves as the main touchpoint and information thoroughfare for fans year
+round.
+&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Digital design &amp; development of a modern news publishing platform</title>
+   <link href="http://localhost:4000/2018/11/20/designed-to-meet-developers-where-they-live/"/>
+   <updated>2018-11-20T00:00:00+01:00</updated>
+   <id>http://localhost:4000/2018/11/20/designed-to-meet-developers-where-they-live</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Web Experience Development for Nordica NMMA</title>
+   <link href="http://localhost:4000/2018/11/19/designed-to-meet-developers-where-they-live/"/>
+   <updated>2018-11-19T00:00:00+01:00</updated>
+   <id>http://localhost:4000/2018/11/19/designed-to-meet-developers-where-they-live</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+
+</feed>
