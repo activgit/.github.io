@@ -56,17 +56,21 @@ textarea {
 }
 
 @font-face{
-	font-family: "NeoSans-Black", sans-serif;
-	src: url('https://activ.digital/fonts/neo-sans/neosans-bold.eot') format('embedded-opentype'),
+	font-family: "NeoSans-Black";
+	src: url('https://activ.digital/fonts/neo-sans/neosans-bold.woff2') format('woff2'),
 		url('https://activ.digital/fonts/neo-sans/neosans-bold.woff') format('woff'),
-		url('https://activ.digital/fonts/neo-sans/neosans-bold.ttf');
+		url('https://activ.digital/fonts/neo-sans/neosans-bold.eot') format('embedded-opentype'),
+		url('https://activ.digital/fonts/neo-sans/neosans-bold.ttf') format('truetype');
+	font-style:normal
 }
 
 @font-face{
-	font-family: "GT America", sans-serif;
-	src: url('https://activ.digital/fonts/gt-america/gt-america-standard-medium.eot') format('embedded-opentype'),
+	font-family: "GT America";
+	src: url('https://activ.digital/fonts/gt-america/gt-america-standard-medium.woff2') format('woff2'),
 		url('https://activ.digital/fonts/gt-america/gt-america-standard-medium.woff') format('woff'),
-		url('https://activ.digital/fonts/gt-america/gt-america-standard-medium.ttf');
+		url('https://activ.digital/fonts/gt-america/gt-america-standard-medium.eot') format('embedded-opentype'),
+		url('https://activ.digital/fonts/gt-america/gt-america-standard-medium.ttf') format('truetype');
+	font-style:normal
 }
 
 //===========
