@@ -746,11 +746,7 @@
 	}
 }
 
-@media (max-width: 768px) {
-	body {
-		font-size: 0.95em;
-	}
-
+@media (max-width: 1024px) {
 	#services {
 		.services {
 			&_items {
@@ -781,6 +777,12 @@
 				margin: 0 0 1em;
 			}
 		}
+	}
+}
+
+@media (max-width: 768px) {
+	body {
+		font-size: 0.95em;
 	}
 
 	.portfolio_item, 
