@@ -18,7 +18,7 @@ title: Hire us
 							<h4>New Business</h4>
 						</div>
 						<p>
-							We will love to hear about your exciting project. Kindly send us a mail at <strong>omeiza[at]activ.digital</strong>. We'll get back to you within 24 hours.
+							We will love to hear about your exciting project. Kindly send us a mail at <strong><a href="mailto:omeiza@activ.digital">omeiza[at]activ.digital</a></strong>. We'll get back to you within 24 hours.
 						</p>
 					</li>
 					<li class="contact_sub">
@@ -26,7 +26,7 @@ title: Hire us
 							<h4>Innovative Partnerships</h4>
 						</div>
 						<p>
-							Do you have a startup idea that you need us to partner with you on? Kindly send us a mail at <strong>idris[at]activ.digital</strong>. We'll get back to you within 24 hours.
+							Do you have a startup idea that you need us to partner with you on? Kindly send us a mail at <strong><a href="mailto:idris@activ.digital">idris[at]activ.digital</a></strong>. We'll get back to you within 24 hours.
 						</p>
 					</li>
 				</ul>
