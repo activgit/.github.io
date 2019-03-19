@@ -22,7 +22,7 @@ description:
 						operational excellence. We combine these capabilities into a single solution that helps
 						companies foster meaningful relationships with their users/customers.
 					</p>
-					<a class="btn grid_cont grid_align_center">
+					<a href="/contact" class="btn grid_cont grid_align_center">
 						Contact us
 						{% include_relative svg/arrow.svg %}
 					</a>
@@ -45,8 +45,7 @@ description:
 					<h3>Development</h3>
 					<p>
 						From the beginning, we’ve believed that software has the power to change the world.
-						We work with small startups and global brands alike, combining two decades of agile
-						development practice with strategic thinking to make clients’ digital dreams a reality.
+						We work with small startups and global brands alike, combining agile development practice with strategic thinking to make clients’ digital dreams a reality.
 					</p>
 				</div>
 			</li>
@@ -74,7 +73,7 @@ description:
 			</li>
 		</ul>
 		<div class="grid_cont_100perc clearfix">
-		    <a class="btn grid_cont grid_align_center">
+		    <a href="/contact" class="btn grid_cont grid_align_center">
 				Contact us
 				{% include_relative svg/arrow.svg %}
 			</a>

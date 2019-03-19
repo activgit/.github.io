@@ -12,9 +12,7 @@ image: omeiza.jpg
 				We are activ
 			</h2>
 			<p>
-				We are a digital technology agency that specialise in helping Techology Startups and Technology
-				Focused Companies by providing Web Design, Web Development,
-				Product Design and Digital Marketing services.
+				We are a digital technology agency that specializes in helping Technology Startups and Technology Focused Companies by providing Web Design, Web Development, Product Design, and Digital Marketing services.
 			</p>
 			<a href="/about" class="btn">
 				Learn More

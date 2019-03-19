@@ -2,7 +2,7 @@
 layout: post
 title: "Web Experience Development for Nordica NMMA"
 client: "NMMA"
-excerpt: "The product team needs an app to go to market. Marketing has to design this year’s flagship campaign and a five-year communications vision. IT wants to replace frustrating, outdated internal software. Different business problems, different needs. We can help."
+excerpt: "Nordica Lagos Fertility Centre is one of Nigeria's leading centre for world class Assisted Reproductive Services. We partnered with them to build a digital platform for their Annual Media Merit Award."
 class: "nmma"
 image: "nmma-mobile-desktop.jpg"
 ---
