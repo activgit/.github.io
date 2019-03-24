@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About us
+title: About. This is Activ.
 description: 
 ---
 <section id="portfolio" class="portfolio">

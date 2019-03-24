@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Portfolio of some of our best work
+title: Work. Made by Activ.
 ---
 
 <section id="portfolio" class="portfolio archive">

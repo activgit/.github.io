@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Hire us
+title: Contact. Say hi to Activ.
 ---
 
 <section id="contact">

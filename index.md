@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Web Product Development, Product Design and Digital Marketing
+title: Activ. A digital technology agency.
 exclude: true
 image: omeiza.jpg
 ---
