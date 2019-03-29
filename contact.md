@@ -18,7 +18,7 @@ title: Contact. Say hi to Activ.
 							<h4>New Business</h4>
 						</div>
 						<p>
-							We will love to hear about your exciting project. Kindly send us a mail at <strong><a href="mailto:omeiza@activ.digital">omeiza[at]activ.digital</a></strong>. We'll get back to you within 24 hours.
+							We will love to hear about your exciting project. Kindly send us a mail at <strong><a href="mailto:hello@activ.digital">hello[at]activ.digital</a></strong>. We'll get back to you within 24 hours.
 						</p>
 					</li>
 					<li class="contact_sub">
