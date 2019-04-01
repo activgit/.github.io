@@ -45,7 +45,7 @@ description:
 					<h3>Development</h3>
 					<p>
 						From the beginning, we’ve believed that software has the power to change the world.
-						We work with small startups and global brands alike, combining agile development practice with strategic thinking to make clients’ digital dreams a reality.
+						We work with small startups and global brands alike, combining agile development practice with strategic thinking to make clients’ digital dreams a reality. We build Web & Mobile Apps to help you realise those dreams.
 					</p>
 				</div>
 			</li>
@@ -56,7 +56,7 @@ description:
 					<p>
 						The best digital experiences are ones that go beyond being merely functional and efficient.
 						To draw interest with stunning visuals, provide interactive elements, and tell a compelling
-						story is to create an experience worth revisiting.
+						story is to create an experience worth revisiting. At Activ Digital, we use design as a tool to help you connect your products and ideas to your audience.
 					</p>
 				</div>
 			</li>
