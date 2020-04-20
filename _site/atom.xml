@@ -4,7 +4,7 @@
  <title>Activ Digital</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2019-03-29T17:34:04+01:00</updated>
+ <updated>2020-04-20T13:51:26+01:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Activ Digital</name>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>Digital web transformation for a forward thinking oil company</title>
-   <link href="http://localhost:4000/2018/11/21/designed-to-meet-developers-where-they-live/"/>
+   <link href="http://localhost:4000/2018/11/21/techno/"/>
    <updated>2018-11-21T00:00:00+01:00</updated>
-   <id>http://localhost:4000/2018/11/21/designed-to-meet-developers-where-they-live</id>
+   <id>http://localhost:4000/2018/11/21/techno</id>
    <content type="html">&lt;p&gt;
     The product team needs an app to go to market. Marketing has to design this year’s flagship
     campaign and a five-year communications vision. IT wants to replace frustrating, outdated internal software.
@@ -53,18 +53,18 @@ round.
  
  <entry>
    <title>Digital design &amp; development of a modern news publishing platform</title>
-   <link href="http://localhost:4000/2018/11/20/designed-to-meet-developers-where-they-live/"/>
+   <link href="http://localhost:4000/2018/11/20/newswatch/"/>
    <updated>2018-11-20T00:00:00+01:00</updated>
-   <id>http://localhost:4000/2018/11/20/designed-to-meet-developers-where-they-live</id>
+   <id>http://localhost:4000/2018/11/20/newswatch</id>
    <content type="html">
 </content>
  </entry>
  
  <entry>
    <title>Web Experience Development for Nordica NMMA</title>
-   <link href="http://localhost:4000/2018/11/19/designed-to-meet-developers-where-they-live/"/>
+   <link href="http://localhost:4000/2018/11/19/nmma/"/>
    <updated>2018-11-19T00:00:00+01:00</updated>
-   <id>http://localhost:4000/2018/11/19/designed-to-meet-developers-where-they-live</id>
+   <id>http://localhost:4000/2018/11/19/nmma</id>
    <content type="html">
 </content>
  </entry>

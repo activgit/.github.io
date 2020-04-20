@@ -134,9 +134,9 @@
 		&_item {
 			font-family: $primaryFont;
 			font-size: 1em;
-			font-weight: 500;
+			font-weight: 700;
 			margin-left: 25px;
-			color: #333;
+			color: #000;
 
 			a {
 				display: inline-block;
@@ -177,7 +177,7 @@
 	font-size: 0.85em;
 	float: right;
 	color: #333;
-	font-weight: 500;
+	font-weight: 700;
 
 	svg {
 		width: 6px;
@@ -199,14 +199,18 @@
 				img {
 					width: calc(100% + 50% - 1.5em);
 					position: relative;
-					right: -3%;
+					right: -4%;
 					left: auto;
 				}
 			}
 
 			.portfolio_desc {
 				order: 1;
-				padding: 0 8em 0 1.5em !important;
+                padding: 0 8em 0 1.5em !important;
+                
+                strong {
+                    font-weight: 700;
+                }
 			}
 		}
 
@@ -224,7 +228,23 @@
 
 		&.newswatch {
 			background-color: #ffffff;
-		}
+        }
+        
+        &.career {
+			background-color: #3f81a9;
+        }
+
+        &.web-dev {
+            background-color: #ecf7ff;
+        }
+        
+        &.ui-ux {
+            background-color: darkslategray;
+        }
+
+        &.analytics {
+            background-color: #fff8dc;
+        }
 
 		&.techno {
 			background-color: #d4312f;
@@ -234,8 +254,10 @@
 			}
 		}
 
-		&.techno,
-		&.nmma {
+        &.techno,
+        &.career,
+        &.nmma,
+        &.ui-ux {
 			color: white;
 
 			h3, .btn {
@@ -462,7 +484,7 @@
 
 		h4 {
 			margin: 0 0 10px;
-			color: white;
+            color: white;
 			font-size: 1.05em;
 		}
 
@@ -528,12 +550,6 @@
 	width: 100%;
 	vertical-align: top;
 
-	textarea {
-		min-height: 140px;
-		min-width: 100%;
-		max-width: 100%;
-	}
-
 	&__field {
 		position: relative;
 		display: block;
@@ -550,7 +566,7 @@
 		}
 
 		&--nao {
-			padding: 0.5em 0 1em;
+			padding: 0.5em 0 0.5em;
 			width: 100%;
 			background: transparent;
 		}
@@ -614,9 +630,9 @@
 	}
 }
 
-.input__field--nao:focus + .input__label--nao,
+.input__field--nao + .input__label--nao,
 .input--filled .input__label--nao {
-	color: #333;
+	color: #000;
 	-webkit-transform: translate3d(0, -1.25em, 0) scale3d(0.75, 0.75, 1);
 	transform: translate3d(0, -1.25em, 0) scale3d(0.75, 0.75, 1);
 
@@ -624,7 +640,7 @@
 
 .input__field--nao:focus ~ .graphic--nao,
 .input--filled .graphic--nao {
-	stroke: #333;
+	stroke: #000;
 	-webkit-transform: translate3d(-66.6%, 0, 0);
 	transform: translate3d(-66.6%, 0, 0);
 }
@@ -635,7 +651,23 @@
 }
 
 .input__field--nao {
-	font-weight: 400;
+    font-weight: 400;
+    
+    &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+        color: #b9b9b9;
+      }
+
+    &::-moz-placeholder { /* Firefox 19+ */
+        color: #b9b9b9;
+    }
+
+    &:-ms-input-placeholder { /* IE 10+ */
+        color: #b9b9b9;
+    }
+
+    &:-moz-placeholder { /* Firefox 18- */
+        color: #b9b9b9;
+    }
 }
 
 #contact-form .btn {
@@ -657,9 +689,18 @@
 
 	h4 {
 		margin-bottom: 10px;
-		font-size: 1.2em;
+        font-size: 1.2em;
 	}
 }
+
+// #contact-form {
+//     input {
+//         width: 100%;
+//         display: block;
+//         margin-bottom: 10px;
+//         padding: 10px 20px;
+//     }
+// }
 
 @media (max-width: 1024px) {
 	.grid_cont {

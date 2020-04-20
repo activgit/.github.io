@@ -2,7 +2,6 @@
 layout: default
 title: Activ. A digital technology agency.
 exclude: true
-image: omeiza.jpg
 ---
 
 <section id="jumbotron" class="jumbotron">

@@ -12,50 +12,36 @@ title: Contact. Say hi to Activ.
 				<div class="portfolio_desc_heading">
 					<h3>Tell us about your dream.</h3>
 				</div>
-				<ul>
-					<li class="contact_sub">
-						<div class="contact_sub_heading">
-							<h4>New Business</h4>
-						</div>
-						<p>
-							We will love to hear about your exciting project. Kindly send us a mail at <strong><a href="mailto:hello@activ.digital">hello[at]activ.digital</a></strong>. We'll get back to you within 24 hours.
-						</p>
-					</li>
-					<li class="contact_sub">
-						<div class="contact_sub_heading">
-							<h4>Innovative Partnerships</h4>
-						</div>
-						<p>
-							Do you have a startup idea that you need us to partner with you on? Kindly send us a mail at <strong><a href="mailto:idris@activ.digital">idris[at]activ.digital</a></strong>. We'll get back to you within 24 hours.
-						</p>
-					</li>
-				</ul>
-				<!-- <form id="contact-form" action="https://formspree.io/omeizaowuda@gmail.com" method="POST">
+                <div>
+                    <p>
+                        We will love to hear about your exciting project. We are open to new businesses and innovative partnerships.
+                    </p>
+                    <!-- <form id="contact-form" action="https://getform.io/f/87c1f35e-a425-44b5-85f7-a2c51e967ed5" method="POST">
+                        <input type="text" name="name">
+                        <input type="email" name="email">
+                        <input type="tel" name="tel">
+                        <button type="submit">Send</button>
+                    </form> -->
+                </div>
+				<form id="contact-form" action="https://getform.io/f/87c1f35e-a425-44b5-85f7-a2c51e967ed5" method="POST">
 					<div class="input input--nao">
-						<input class="input__field input__field--nao" type="text" id="input-1" name="name" />
+						<input class="input__field input__field--nao" type="text" id="input-1" name="name" placeholder="John Doe" />
 						<label class="input__label input__label--nao" for="input-1">
 							<span class="input__label-content input__label-content--nao">Name</span>
 						</label>
 						{% include_relative svg/input.svg %}
 					</div>
 					<div class="input input--nao">
-						<input class="input__field input__field--nao" type="email" id="input-2"  name="email_address"/>
+						<input class="input__field input__field--nao" type="email" id="input-2"  name="email" placeholder="johndoe@youremail.com"/>
 						<label class="input__label input__label--nao" for="input-1">
 							<span class="input__label-content input__label-content--nao">Email Address</span>
 						</label>
 						{% include_relative svg/input.svg %}
 					</div>
 					<div class="input input--nao">
-						<input class="input__field input__field--nao" type="tel" id="input-3" name="mobile_number"/>
+						<input class="input__field input__field--nao" type="tel" id="input-3" name="tel" placeholder="+234 8012345678"/>
 						<label class="input__label input__label--nao" for="input-1">
 							<span class="input__label-content input__label-content--nao">Mobile Number</span>
-						</label>
-						{% include_relative svg/input.svg %}
-					</div>
-					<div class="input input--nao">
-						<textarea class="input__field input__field--nao" id="input-4" name="message"></textarea>
-						<label class="input__label input__label--nao" for="input-1">
-							<span class="input__label-content input__label-content--nao">Describe your needs</span>
 						</label>
 						{% include_relative svg/input.svg %}
 					</div>
@@ -63,7 +49,7 @@ title: Contact. Say hi to Activ.
 						Submit
 						{% include_relative svg/arrow.svg %}
 					</button>
-				</form> -->
+				</form>
 			</div>
 		</div>
 	</section>
